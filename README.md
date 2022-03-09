@@ -37,8 +37,8 @@
 
 
 ## String Session :
-[Versi Web](https://replit.com/@MichaelAgam/StringSession)
-[Versi Bot](https://t.me/NothingStringGenBot)
+- [Versi Web](https://replit.com/@MichaelAgam/StringSession)
+- [Versi Bot](https://t.me/NothingStringGenBot)
 
 
 The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).
