@@ -47,17 +47,17 @@
         "GROUP": {
             "description": "Isi dengan username group tanpa @",
             "required": true,
-            "value": "NastySupportt"
+            "value": "NothingMusikBot"
         },
          "CHANNEL": {
             "description": "Isi dengan username channel tanpa @",
             "required": true,
-            "value": "NastyProject"
+            "value": "NothingMusikBot"
         },
         "SUDO_USERS": {
             "description": "isi dengan user id yang dapat mengakses semua fungsi di bot anda (dipisahkan dengan spasi).",
             "required": true,
-            "value": "1663258664"
+            "value": "2135624454"
         },
         "DURATION_LIMIT": {
             "description": "diisi, jangan ubah ini!!",
