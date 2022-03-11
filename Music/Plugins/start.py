@@ -46,7 +46,7 @@ def start_pannel():
             InlineKeyboardButton("📚 ᴄᴏᴍᴍᴀɴᴅ​ 📚", url="https://telegra.ph/Command-Musik-Bot-By-NothingKaze-03-09"),
         ],
         [
-            InlineKeyboardButton("🌐 ɢɪᴛʜᴜʙ 🌐", url="https://github.com/PunyaSayaaa"),
+            InlineKeyboardButton("🌐 ɢɪᴛʜᴜʙ 🌐", url="https://github.com/PunyaChael"),
         ],
     ]
     return (
@@ -69,7 +69,7 @@ pstart_markup = InlineKeyboardMarkup(
             InlineKeyboardButton("📚 ᴄᴏᴍᴍᴀɴᴅ​ 📚", url="https://telegra.ph/Command-Musik-Bot-By-NothingKaze-03-09"),
         ],
         [
-            InlineKeyboardButton("🌐 ɢɪᴛʜᴜʙ 🌐", url="https://github.com/PunyaSayaaa"),
+            InlineKeyboardButton("🌐 ɢɪᴛʜᴜʙ 🌐", url="https://github.com/PunyaChael"),
         ],
     ]
 )
