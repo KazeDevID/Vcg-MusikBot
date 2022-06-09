@@ -17,6 +17,9 @@ Waktu aktif: {get_readable_time((bot_uptime))}
 CPU: {cpu}%
 RAM: {mem}%
 Disk: {disk}%
+
+𝗥𝗲𝗽𝗼
+https://github.com/PunyaChael/Vcg-MusikBot
 """
     return stats
 
