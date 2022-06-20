@@ -1,10 +1,14 @@
-import time
-from datetime import datetime
+import time, psutil
 
-import psutil
+from datetime import datetime
 from Music import Music_START_TIME, app
 from Music.MusicUtilities.helpers.time import get_readable_time
 from pyrogram import filters
+from pyrogram.types import (
+    InlineKeyboardButton,
+    InlineKeyboardMarkup,
+    Message,
+)
 
 
 async def bot_sys_stats():
@@ -17,9 +21,6 @@ Waktu aktif: {get_readable_time((bot_uptime))}
 CPU: {cpu}%
 RAM: {mem}%
 Disk: {disk}%
-
-𝗥𝗲𝗽𝗼
-https://github.com/PunyaChael/Vcg-MusikBot
 """
     return stats
 
@@ -32,5 +33,13 @@ async def ping(_, message):
     end = datetime.now()
     resp = (end - start).microseconds / 1000
     await response.edit(
-        f"**Pong !!**\n`💫{resp} ms`\n\n<b><u>Statistik Sistem Musik:</u></b>{uptime}"
+        f"**Pong !!**\n`💫{resp} ms`\n\n<b><u>Statistik Sistem Musik:</u></b>{uptime}",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                    "𝗥𝗲𝗽𝗼", url="https://github.com/KazeDevID/Vcg-MusikBot")
+                ]
+            ]
+        )
     )
